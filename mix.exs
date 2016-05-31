@@ -19,7 +19,7 @@ defmodule Ecdo.Mixfile do
   defp deps do
     [{:mariaex, ">= 0.0.0", optional: true},
      {:postgrex, ">= 0.0.0", optional: true},
-     {:ecto, "~> 1.0.0"},
+     {:ecto, "~> 1.1.0"},
      {:coverex, "~> 1.4.1", only: :test}]
   end
 
